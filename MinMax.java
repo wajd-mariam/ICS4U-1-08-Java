@@ -1,7 +1,7 @@
 /*
 * Copyright (c) 2020
 *
-* This program determines the maximum and the minmium number
+* This program determines the maximum and the minimum number
 * in an array consisting of 10 randomly generated numbers.
 *
 * @author  Wajd Mariam
@@ -73,12 +73,12 @@ public class MinMax {
     System.out.println("");
         
     // Calling maxNumber function:
-    int maxNum = maxNumber(array1);
+    final int maxNum = maxNumber(array1);
     System.out.println("The maximum number in the array is " + maxNum);
     System.out.println("");
         
     // Calling maxNumber function:
-    int minNum = minNumber(array1);
+    final int minNum = minNumber(array1);
     System.out.println("The minimum number in the array is " + minNum);
     System.out.println("");
   }
